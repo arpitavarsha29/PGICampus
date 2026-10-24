@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyAcademic" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8bb4e8"/>
+      <stop offset="60%" stop-color="#d4e3f7"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="academicFacade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e28743"/>
+      <stop offset="100%" stop-color="#af5f22"/>
+    </linearGradient>
+    <pattern id="classWindows" width="60" height="40" patternUnits="userSpaceOnUse">
+      <rect x="8" y="6" width="44" height="28" rx="3" fill="#2d4868" stroke="#ffffff" stroke-width="2"/>
+      <line x1="30" y1="6" x2="30" y2="34" stroke="#ffffff" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#skyAcademic)"/>
+
+  <!-- Background hills/greenery -->
+  <path d="M 0 650 Q 400 600 800 640 T 1600 620 L 1920 640 L 1920 850 L 0 850 Z" fill="#3f6e3c" opacity="0.6"/>
+
+  <!-- Academic Building - 4 Floors -->
+  <rect x="260" y="300" width="1400" height="480" fill="url(#academicFacade)" stroke="#874311" stroke-width="4"/>
+  <rect x="240" y="280" width="1440" height="24" fill="#fdfbf7" stroke="#cfc5b4" stroke-width="2"/>
+
+  <!-- Floor separator cornices -->
+  <rect x="250" y="420" width="1420" height="14" fill="#f3eee5"/>
+  <rect x="250" y="540" width="1420" height="14" fill="#f3eee5"/>
+  <rect x="250" y="660" width="1420" height="14" fill="#f3eee5"/>
+
+  <!-- Windows Grid representing lecture classrooms -->
+  <rect x="280" y="320" width="1360" height="90" fill="url(#classWindows)"/>
+  <rect x="280" y="440" width="1360" height="90" fill="url(#classWindows)"/>
+  <rect x="280" y="560" width="1360" height="90" fill="url(#classWindows)"/>
+
+  <!-- Central Glass Atrium -->
+  <rect x="860" y="300" width="200" height="480" fill="#294f79" stroke="#ffffff" stroke-width="3"/>
+  <g stroke="#ffffff" stroke-width="2" opacity="0.6">
+    <line x1="860" y1="360" x2="1060" y2="360"/>
+    <line x1="860" y1="420" x2="1060" y2="420"/>
+    <line x1="860" y1="480" x2="1060" y2="480"/>
+    <line x1="860" y1="540" x2="1060" y2="540"/>
+    <line x1="860" y1="600" x2="1060" y2="600"/>
+    <line x1="860" y1="660" x2="1060" y2="660"/>
+    <line x1="860" y1="720" x2="1060" y2="720"/>
+    <line x1="910" y1="300" x2="910" y2="780"/>
+    <line x1="960" y1="300" x2="960" y2="780"/>
+    <line x1="1010" y1="300" x2="1010" y2="780"/>
+  </g>
+
+  <!-- Department Sign -->
+  <rect x="820" y="240" width="280" height="45" fill="#1b3668" rx="6"/>
+  <text x="960" y="268" font-family="'Manrope', sans-serif" font-weight="800" font-size="16" fill="#ffffff" text-anchor="middle">PIT ACADEMIC BLOCK</text>
+
+  <!-- Ground Plaza & Trees -->
+  <rect x="0" y="780" width="1920" height="300" fill="#e5ebf5"/>
+  <rect x="0" y="770" width="1920" height="30" fill="#4a823b"/>
+
+  <!-- Students walking silhouette -->
+  <circle cx="940" cy="830" r="10" fill="#475569"/>
+  <line x1="940" y1="840" x2="940" y2="870" stroke="#475569" stroke-width="6"/>
+  <circle cx="980" cy="835" r="10" fill="#475569"/>
+  <line x1="980" y1="845" x2="980" y2="875" stroke="#475569" stroke-width="6"/>
+
+  <rect x="560" y="990" width="800" height="56" rx="10" fill="#1b2842" opacity="0.85"/>
+  <text x="960" y="1016" font-family="'Manrope', 'DM Sans', sans-serif" font-weight="700" font-size="14" fill="#ffffff" text-anchor="middle">PRASAD INSTITUTE OF TECHNOLOGY · ACADEMIC BLOCK</text>
+  <text x="960" y="1035" font-family="'DM Sans', sans-serif" font-weight="500" font-size="11" fill="#9db2d4" text-anchor="middle">Classrooms &amp; Lecture Theatres • Replace with pgi_academic_block.jpg</text>
+</svg>

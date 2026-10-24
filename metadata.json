@@ -1,0 +1,8 @@
+{
+  "name": "PGI SmartCampus",
+  "description": "Unified institutional management, student records, notices, grievances, hostel and smart assistance for Prasad Group of Institutions.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
